@@ -1,0 +1,9 @@
+#Usamos 'Write-Host' para mostrar un mensaje en la consola
+Write-Host("Bienvenido al Script De Kike")
+
+#Usamos 'Read-Host' para pedir que ingrese el nombre y le asignamos el atributo "nombre"
+$nombre = Read-Host("Ingresa un Nombre: ")
+
+#Agregamos una nueva variable llamada "longitud" que calcula los caracteres del nombre de usuario y luego usamos 'Write-Host' de nuevo para ver la longitud del nombre
+$longitud = $nombre.Length
+Write-Host("Tu nombre tiene $longitud caracteres.")
